@@ -14,7 +14,7 @@ const Navbar = () => {
 
     return (
         <nav className="navbar">
-            <div className="container navbar-container">
+            <div className="container navbar-container" id='navbar-cont'>
                 <Link to="/" className="navbar-logo">
                     Business<span>Pro</span>
                 </Link>
